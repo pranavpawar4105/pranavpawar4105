@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+float Area(float b, float h)
+{
+    return (b * h);
+}
+int main()
+{
+    float b, h, Area;
+    b = 30;
+    h = 40;
+
+       Area = (b, h);
+    cout << "Area of Parallelogram is :" << Area;
+    return 0;
+}
